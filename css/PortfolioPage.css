@@ -141,12 +141,12 @@
     font-size: 40px;
 }
 
-#social-media-link {
+.social-media-link {
     margin-bottom: 10px;
     font-size: 100px;
     color: white;
 }
-#social-media-link:hover {
+.social-media-link:hover {
     color: #9acfea;
 }
 form {
