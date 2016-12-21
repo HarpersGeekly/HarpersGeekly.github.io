@@ -12,7 +12,14 @@
         }, 100)
     });
 
-
+    $(function(){
+        // You used .myCarousel here.
+        // That's the class selector not the id selector,
+        // which is #myCarousel
+        $('.carousel').carousel({
+            interval: 3000
+        });
+    });
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 1000) {
@@ -28,7 +35,6 @@
         }, 500);
         return false;
     });
-
 
 
 
