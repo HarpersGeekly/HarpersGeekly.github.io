@@ -17,7 +17,7 @@
         // That's the class selector not the id selector,
         // which is #myCarousel
         $('.carousel').carousel({
-            interval: 3000
+            interval: 5000
         });
     });
 

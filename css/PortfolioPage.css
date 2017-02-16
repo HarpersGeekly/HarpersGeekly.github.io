@@ -47,7 +47,7 @@
 #myName {
     width: 100%;
     font-family: "Big Caslon";
-    font-size: 30px;
+    font-size: 2.5rem;
     color: black;
     letter-spacing: 17px;
 }
@@ -56,7 +56,6 @@
     padding-top: 5px;
     font-family: Avenir;
     font-size: 16px;
-    /*box-shadow: 0 1px 1px 0 grey, 0 2px 2px 0 rgba(0, 0, 0, .5);*/
 }
 
 #theNavbarWords li a:hover {
@@ -64,8 +63,7 @@
     -webkit-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
     -webkit-animation-iteration-count: infinite;
-    /*-webkit-animation-timing-function: linear;*/
-    /*#1abc9c*/
+    -webkit-animation-timing-function: linear;
 }
 
 #About {
@@ -99,7 +97,6 @@
 }
 
 #Hello {
-    /*position: fixed;*/
     text-align: center;
     font-family: Avenir;
     font-size: 20px;
@@ -107,11 +104,9 @@
 }
 
 #myNumberEmail {
-    /*position: fixed;*/
     font-family: Futura;
     font-size: 24px;
     color: black;
-    /*text-shadow: 2px 1px black;*/
 }
 
 #Resume {
@@ -121,22 +116,24 @@
     /*background-color: #69A9A9;*/
     /*#F0F8FF;*/
     /*auto;*/
-    height: 70vh;
+    height: 20%;
+    text-align: center;
 }
 
-#ResumeTitle {
-    text-align: center;
-    font-family: Georgia;
-    font-size: 40px;
-}
+/*#ResumeTitle {*/
+    /*text-align: center;*/
+    /*font-family: Georgia;*/
+    /*font-size: 40px;*/
+    /*letter-spacing: 5px;*/
+/*}*/
 
 .workAndSchool {
-    font-family: "Big Caslon";
+    font-family: Futura;
     font-size: 28px;
 }
 .pWorkAndSchool {
     font-family: Avenir;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /*.logo {*/
@@ -151,6 +148,7 @@
     height: 100%;
     margin-left: auto;
     margin-right: 0;
+    z-index: 400;
 }
 
 /*.carousel-control {*/
@@ -263,6 +261,7 @@ input[type="text"].focus {
     font-family: 'Merienda';
     font-size: 24px;
     border: none;
+    resize: none;
     /*border-radius: 5px;*/
     /*background: url("../images/paper_fibers.png");*/
     outline: none;
